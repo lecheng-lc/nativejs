@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "./lib",
+    "declaration": true,
+    "checkJs": false,
+    "allowJs": false,
+    "strict": true,
+    "target": "ES5",
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "removeComments": true,
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "types": [
+      ""
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.js"
+  ]
+}

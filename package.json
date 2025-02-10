@@ -1,0 +1,29 @@
+{
+  "name": "nativejs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": {
+    "name": "lecheng"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "dist": "rollup -c rollup.config.js",
+    "build": "npm run dist && node update.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "date-fns": "^2.29.3",
+    "rollup": "^3.20.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "semver": "^7.4.0",
+    "shelljs": "^0.8.5",
+    "typescript": "^5.0.4"
+  }
+}
